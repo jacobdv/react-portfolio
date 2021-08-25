@@ -55,6 +55,4 @@ export const skills = [
   "React",
   "Next.js",
   "Node",
-  "GraphQL",
-  "Material UI",
 ];
