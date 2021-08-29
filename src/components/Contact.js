@@ -1,22 +1,22 @@
 import React from 'react';
 
 export default function Contact() {
-    const [name, setName] = React.useState('');
-    const [email, setEmail] = React.useState('');
-    const [message, setMessage] = React.useState('');
+    // const [name, setName] = React.useState('');
+    // const [email, setEmail] = React.useState('');
+    // const [message, setMessage] = React.useState('');
 
     function encode(data) {
         return Object.keys(data).map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])).join('&');
     }
 
-    function handleSubmit(e) { 
-        e.preventDefault();
-        fetch('/', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-            body: encode({ 'form-name': 'contact', name, email, message })
-        }).then(() => alert('Message sent!')).catch((error) => alert(error));
-    }
+    // function handleSubmit(e) { 
+    //     e.preventDefault();
+    //     fetch('/', {
+    //         method: 'POST',
+    //         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    //         body: encode({ 'form-name': 'contact', name, email, message })
+    //     }).then(() => alert('Message sent!')).catch((error) => alert(error));
+    // }
 
     return (
         <section id="contact" className="relative">
@@ -34,7 +34,7 @@ export default function Contact() {
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.3040456467647!2d-122.62750258443985!3d45.54420887910194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a72aad4f4549%3A0xbed4dbb063837473!2s2933%20NE%2037th%20Ave%2C%20Portland%2C%20OR%2097212!5e0!3m2!1sen!2sus!4v1629916330564!5m2!1sen!2sus"
                 />
                 <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-                    <div className="lg:w-5/12 px-6">
+                    <div className="lg:w-1 px-6">
                         <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                             ADDRESS
                         </h2>
@@ -43,7 +43,7 @@ export default function Contact() {
                             Portland, OR 97212
                         </p>
                     </div>
-                    <div className="lg:w-7/12 px-6 mt-4 lg:mt-0">
+                    {/* <div className="lg:w-7/12 px-6 mt-4 lg:mt-0">
                         <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                             EMAIL
                         </h2>
@@ -54,7 +54,7 @@ export default function Contact() {
                             PHONE
                         </h2>
                         <p className="leading-relaxed">(541) 539-1828</p>
-                    </div>
+                    </div> */}
                 </div>
                 </div>
                     <form
@@ -69,45 +69,54 @@ export default function Contact() {
                             suscipit officia aspernatur veritatis. Asperiores, aliquid?
                         </p>
                         <div className="relative mb-4">
-                            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
-                            Name
+                            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+                            Email
                             </label>
-                            <input
+                            <h1 className='leading-7 text-sm text-gray-400'>
+                                mrjacobdevries@gmail.com
+                            </h1>
+                            {/* <input
                             type="text"
                             id="name"
                             name="name"
                             className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                            />
+                            /> */}
                         </div>
                         <div className="relative mb-4">
-                            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
-                            Email
+                            <label htmlFor="phone" className="leading-7 text-sm text-gray-400">
+                            Phone Number
                             </label>
-                            <input
+                            <h1 className='leading-7 text-sm text-gray-400'>
+                                (541) 539-1828
+                            </h1>
+                            {/* <input
                             type="email"
                             id="email"
                             name="email"
                             className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                            />
+                            /> */}
                         </div>
                         <div className="relative mb-4">
                             <label
-                            htmlFor="message"
+                            htmlFor="linkedin"
                             className="leading-7 text-sm text-gray-400">
-                            Message
+                            LinkedIn
                             </label>
-                            <textarea
+                            <h1 className='leading-7 text-sm text-gray-400'>
+                                https://www.linkedin.com/in/jacobdv/                            
+                            </h1>
+                            {/* <textarea
                             id="message"
                             name="message"
                             className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                            />
+                            /> */}
                         </div>
-                        <button
+                        {/* <button
                             onclick='handleSubmit(e);'
                             type="submit"
                             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                             Submit
-                        </button>
+                        </button> */}
                     </form>
                 </div>
             </section>
