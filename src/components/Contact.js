@@ -33,7 +33,7 @@ export default function Contact() {
                     style={{ filter: "opacity(0.7)" }}
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.3040456467647!2d-122.62750258443985!3d45.54420887910194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a72aad4f4549%3A0xbed4dbb063837473!2s2933%20NE%2037th%20Ave%2C%20Portland%2C%20OR%2097212!5e0!3m2!1sen!2sus!4v1629916330564!5m2!1sen!2sus"
                 />
-                <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+                {/* <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
                     <div className="lg:w-1 px-6">
                         <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                             ADDRESS
@@ -43,7 +43,7 @@ export default function Contact() {
                             Portland, OR 97212
                         </p>
                     </div>
-                    {/* <div className="lg:w-7/12 px-6 mt-4 lg:mt-0">
+                    <div className="lg:w-7/12 px-6 mt-4 lg:mt-0">
                         <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                             EMAIL
                         </h2>
@@ -54,8 +54,8 @@ export default function Contact() {
                             PHONE
                         </h2>
                         <p className="leading-relaxed">(541) 539-1828</p>
-                    </div> */}
-                </div>
+                    </div>
+                </div> */}
                 </div>
                     <form
                     netlify
@@ -65,11 +65,10 @@ export default function Contact() {
                             Contact Me
                         </h2>
                         <p className="leading-relaxed mb-5">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-                            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+                            I would love to talk with you about any opportunities or any of my projects displayed above. Please reach out however is most convenient for you. I look forward to talking with you. Thank you!
                         </p>
                         <div className="relative mb-4">
-                            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+                            <label htmlFor="email" className="leading-9 text-sm text-gray-400">
                             Email
                             </label>
                             <h1 className='leading-7 text-sm text-gray-400'>
@@ -83,7 +82,7 @@ export default function Contact() {
                             /> */}
                         </div>
                         <div className="relative mb-4">
-                            <label htmlFor="phone" className="leading-7 text-sm text-gray-400">
+                            <label htmlFor="phone" className="leading-9 text-sm text-gray-400">
                             Phone Number
                             </label>
                             <h1 className='leading-7 text-sm text-gray-400'>
@@ -99,12 +98,12 @@ export default function Contact() {
                         <div className="relative mb-4">
                             <label
                             htmlFor="linkedin"
-                            className="leading-7 text-sm text-gray-400">
+                            className="leading-9 text-sm text-gray-400">
                             LinkedIn
                             </label>
-                            <h1 className='leading-7 text-sm text-gray-400'>
+                            <h1 className='leading-7 text-sm text-gray-400'><a>
                                 https://www.linkedin.com/in/jacobdv/                            
-                            </h1>
+                            </a></h1>
                             {/* <textarea
                             id="message"
                             name="message"

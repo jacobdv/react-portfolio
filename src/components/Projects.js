@@ -9,11 +9,11 @@ export default function Projects() {
                 <div className='flex flex-col w-full mb-20'>
                     <CodeIcon className='mx-auto inline-block w-10 mb-4'></CodeIcon>
                     <h1 className='sm:text-4x1 text-3x1 font-medium title-font mb-4 text-white'>
-                        Apps I've Built
+                        Projects
                     </h1>
-                    <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
+                    {/* <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
                         Details about my past projects.
-                    </p>
+                    </p> */}
                 </div>
                 <div className='flex flex-wrap -m-4'>
                     {projects.map((project) => (

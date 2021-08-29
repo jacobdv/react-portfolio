@@ -12,9 +12,9 @@ export default function Skills() {
                         Skills &amp; Technologies
                     </h1>
                     <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-                        ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-                        possimus est.
+                        These are some of the languages and tools used in the projects above. While certainly not a complete list, these are a few of my favorite methods for 
+                        analyzing and visualizing data. I also frequently use Flask, MongoDB, and PyMongo, and I am currently learning React.js and Tailwind CSS, both of which were 
+                        used for this page.
                     </p>
                 </div>
                 <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
