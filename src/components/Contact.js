@@ -56,7 +56,7 @@ export default function Contact() {
                         <p className="leading-relaxed">(541) 539-1828</p>
                     </div>
                 </div> */}
-                </div>
+                {/* </div> */}
                     <form
                     netlify
                     name="contact"
@@ -117,6 +117,7 @@ export default function Contact() {
                             Submit
                         </button> */}
                     </form>
+                </div>
             </section>
     )
 }
