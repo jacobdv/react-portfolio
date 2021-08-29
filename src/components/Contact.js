@@ -21,7 +21,7 @@ export default function Contact() {
     return (
         <section id="contact" className="relative">
             <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-                <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                {/* <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                 <iframe
                     width="100%"
                     height="100%"
@@ -32,7 +32,7 @@ export default function Contact() {
                     marginWidth={0}
                     style={{ filter: "opacity(0.7)" }}
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.3040456467647!2d-122.62750258443985!3d45.54420887910194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a72aad4f4549%3A0xbed4dbb063837473!2s2933%20NE%2037th%20Ave%2C%20Portland%2C%20OR%2097212!5e0!3m2!1sen!2sus!4v1629916330564!5m2!1sen!2sus"
-                />
+                /> */}
                 {/* <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
                     <div className="lg:w-1 px-6">
                         <h2 className="title-font font-semibold text-white tracking-widest text-xs">
@@ -60,11 +60,11 @@ export default function Contact() {
                     <form
                     netlify
                     name="contact"
-                    className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-                        <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+                    className="lg:w-8/10 md:w-8/10 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                        <h2 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
                             Contact Me
                         </h2>
-                        <p className="leading-relaxed mb-5">
+                        <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
                             I would love to talk with you about any opportunities or any of my projects displayed above. Please reach out however is most convenient for you. I look forward to talking with you. Thank you!
                         </p>
                         <div className="relative mb-4">
