@@ -13,7 +13,8 @@ export const projects = [
     title: "Bookclub Website",
     subtitle: "Responsive Web Design",
     description:
-      "A small project created for a book club I am involved in. Built using Flask, HTML, CSS, and D3.js, with MongoDB Atlas used as a database for book \
+      "A small project created for a book club I am involved in. Displays the books that have been read, individual reviews, and the book list which will be \
+      used for future selections. Built using Flask, HTML, CSS, and D3.js, with MongoDB Atlas used as a database for book \
       reviews and suggestions. Further development will include a profiles page and average group ratings for books on the home page.",
     image: "./bookclub.gif",
     link: "https://zbookclub.herokuapp.com/",
