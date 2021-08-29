@@ -60,7 +60,7 @@ export default function Contact() {
                     <form
                     netlify
                     name="contact"
-                    className="lg:w-8/10 md:w-8/10 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                    className="lg:w-8/10 md:w-8/10 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 text-center mb-20">
                         <h2 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
                             Contact Me
                         </h2>
