@@ -1,9 +1,11 @@
 export const projects = [
   {
     title: "Wedding Website",
-    subtitle: "",
+    subtitle: "Database Interaction",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "An ongoing wedding website project that demonstrates responsive design, user input handling with RSVPs, and data security, with the invitation list locked \
+      behind a Heroku configuration variable. Built using Flask, HTML, CSS, and D3.js, with MongoDB Atlas hosting the invitations list and the guest messages. \
+      Next steps include reformatting the home page and adding questions to the RSVP.",
     image: "./wedding.gif",
     link: "https://brendan-grace-wedding.herokuapp.com/",
   },
