@@ -67,8 +67,9 @@ export default function Contact() {
                         <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
                             I would love to talk with you about any opportunities or any of my projects displayed above. Please reach out however is most convenient for you. I look forward to talking with you. Thank you!
                         </p>
+                        <br></br>
                         <div className="relative mb-4">
-                            <label htmlFor="email" className="leading-9 text-sm text-gray-400">
+                            <label htmlFor="email" className="leading-9 text-sm text-white">
                             Email
                             </label>
                             <h1 className='leading-7 text-sm text-gray-400'>
@@ -82,7 +83,7 @@ export default function Contact() {
                             /> */}
                         </div>
                         <div className="relative mb-4">
-                            <label htmlFor="phone" className="leading-9 text-sm text-gray-400">
+                            <label htmlFor="phone" className="leading-9 text-sm text-white">
                             Phone Number
                             </label>
                             <h1 className='leading-7 text-sm text-gray-400'>
@@ -98,7 +99,7 @@ export default function Contact() {
                         <div className="relative mb-4">
                             <label
                             htmlFor="linkedin"
-                            className="leading-9 text-sm text-gray-400">
+                            className="leading-9 text-sm text-white">
                             LinkedIn
                             </label>
                             <h1 className='leading-7 text-sm text-gray-400'><a>
