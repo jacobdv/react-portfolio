@@ -6,7 +6,8 @@ export default function About() {
             <div className='container mx-auto flex px-10 py-20 md:flex-row flex-col items-center'>
                 <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
                     <h1 classname='title-font sm:text-4x1 text-3x1 mb-4 font-medium text-white'>
-                        Hi, I'm Jacob.
+                        Hi, I'm Jacob!
+                        <br></br>
                     </h1>
                     <p className='mb-8 leading-relaxed'>
                         I recieved my Bachelor of Science in Psychology from the University of Oregon before completing a Data Analytics and Visualization program,
