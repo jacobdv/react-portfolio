@@ -16,7 +16,7 @@ export default function Visualizations() {
                     </p> */}
                 </div>
                 <div className='flex flex-wrap -m-4'>
-                    {visualization.map((visualization) => (
+                    {visualizations.map((visualization) => (
                         <a href={visualization.link} key={visualization.image} className='sm:w-1/2 w-100 p-4'>
                             <div className='flex relative'>
                                 <img alt='gallery' className='absolute inset-0 w-full h-full object-cover object-center' src={visualization.image}></img>

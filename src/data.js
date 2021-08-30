@@ -32,35 +32,32 @@ export const visualizations = [
   },
   {
     title: 'Earthquakes',
-    subtitle: 'Plotly Visualizations',
-    description: "This was a bootcamp project that focused on learning how to make visualizations using JavaScript's Plotly library. Looking back at it, I would much \
-      rather make this type of visualization using D3 but I appreciate the simplicity Plotly provided in initially learning JavaScript visualization methods.",
+    subtitle: 'Leaflet Mapping',
+    description: "",
     image: "./visualizationGifs/earthquakes.gif",
-    link: 'https://github.com/jacobdv/biodiversity'
+    link: 'https://github.com/jacobdv/usgs-earthquakes'
   },
   {
     title: 'Median Income and Age',
     subtitle: 'Plotly Visualizations',
-    description: "This was a bootcamp project that focused on learning how to make visualizations using JavaScript's Plotly library. Looking back at it, I would much \
-      rather make this type of visualization using D3 but I appreciate the simplicity Plotly provided in initially learning JavaScript visualization methods.",
+    description: "",
     image: "./visualizationGifs/income.gif",
-    link: 'https://github.com/jacobdv/biodiversity'
+    link: 'https://github.com/jacobdv/data-journalism'
   },
   {
     title: 'High Speed Internet Access',
     subtitle: 'Plotly Visualizations',
-    description: "This was a bootcamp project that focused on learning how to make visualizations using JavaScript's Plotly library. Looking back at it, I would much \
-      rather make this type of visualization using D3 but I appreciate the simplicity Plotly provided in initially learning JavaScript visualization methods.",
+    description: "",
     image: "./visualizationGifs/internetAccess.gif",
-    link: 'https://github.com/jacobdv/biodiversity'
+    link: 'https://github.com/jacobdv/snuffleupagusses'
   },
   {
     title: "NCAA DI Men's Basketball",
     subtitle: 'Plotly Visualizations',
-    description: "This was a bootcamp project that focused on learning how to make visualizations using JavaScript's Plotly library. Looking back at it, I would much \
-      rather make this type of visualization using D3 but I appreciate the simplicity Plotly provided in initially learning JavaScript visualization methods.",
+    description: "This is the first web visualization of my ongoing NCAA project. It uses HTML and CSS to display graphs created in Pandas with Matplotlib. This is a project \
+      that I look forward to improving upon now that I am confident with JavaScript and visualization methods such as D3.js.",
     image: "./visualizationGifs/ncaaOriginal.gif",
-    link: 'https://github.com/jacobdv/biodiversity'
+    link: 'https://jacobdv.github.io/web-ncaa/'
   }
 ]
 
