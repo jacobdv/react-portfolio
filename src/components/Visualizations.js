@@ -5,7 +5,7 @@ import { visualizations } from '../data';
 export default function Visualizations() {
     return (
         <section id='visualizations' className='text-gray-400 bg-gray-900 body-font z-10'>
-            <div className='container px-5 py-10 mx-auto text-center lg:px-40'>
+            <div className='container px-5 py-10 mx-auto text-center lg:px-40 z-10'>
                 <div className='flex flex-col w-full mb-20'>
                     <CodeIcon className='mx-auto inline-block w-10 mb-4'></CodeIcon>
                     <h1 className='sm:text-4x1 text-3x1 font-medium title-font mb-4 text-white'>
