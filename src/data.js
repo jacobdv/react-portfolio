@@ -25,7 +25,7 @@ export const visualizations = [
   {
     title: 'Belly Button Biodiversity',
     subtitle: 'Plotly Visualizations',
-    description: "This was a bootcamp project that focused on learning how to make visualizations using JavaScript's Plotly library. Looking back at it, I would much \
+    description: "This was a project that focused on learning how to make visualizations using JavaScript's Plotly library. Looking back at it, I would much \
       rather make this type of visualization using D3 but I appreciate the simplicity Plotly provided in initially learning JavaScript visualization methods.",
     image: "./visualizationGifs/bellyButton.gif",
     link: 'https://github.com/jacobdv/biodiversity'
@@ -33,21 +33,24 @@ export const visualizations = [
   {
     title: 'Earthquakes',
     subtitle: 'Leaflet Mapping',
-    description: "",
+    description: "This map displays my first use of Leaflet.js to map real-time data. I find Leaflet.js to be extremely straightforward and easy to use, though \
+      I do not find that I need mapping often in personal projects. I hope to use this more in the future.",
     image: "./visualizationGifs/earthquakes.gif",
     link: 'https://github.com/jacobdv/usgs-earthquakes'
   },
   {
     title: 'Median Income and Age',
     subtitle: 'Plotly Visualizations',
-    description: "",
+    description: "I remember being so proud and excited when I first built this - it was my first interactive project where elements moved on the page! There \
+      are definitely pieces of this code that look clunky now but it works and I know how I would make it cleaner now.",
     image: "./visualizationGifs/income.gif",
     link: 'https://github.com/jacobdv/data-journalism'
   },
   {
     title: 'High Speed Internet Access',
     subtitle: 'Plotly Visualizations',
-    description: "",
+    description: "These visualizations are two of the smoothest I built in the bootcamp. The map displays datapoints for all US cities with a population over 5000, \
+      changing color and radius based on the data. The scatterplot loads smoothly and has tooltips that update accurately.",
     image: "./visualizationGifs/internetAccess.gif",
     link: 'https://github.com/jacobdv/snuffleupagusses'
   },
