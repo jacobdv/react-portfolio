@@ -31,35 +31,35 @@ export const visualizations = [
     link: 'https://github.com/jacobdv/biodiversity'
   },
   {
-    title: 'Belly Button Biodiversity',
+    title: 'Earthquakes',
     subtitle: 'Plotly Visualizations',
     description: "This was a bootcamp project that focused on learning how to make visualizations using JavaScript's Plotly library. Looking back at it, I would much \
       rather make this type of visualization using D3 but I appreciate the simplicity Plotly provided in initially learning JavaScript visualization methods.",
-    image: "./visualizationGifs/bellyButton.gif",
+    image: "./visualizationGifs/earthquakes.gif",
     link: 'https://github.com/jacobdv/biodiversity'
   },
   {
-    title: 'Belly Button Biodiversity',
+    title: 'Median Income and Age',
     subtitle: 'Plotly Visualizations',
     description: "This was a bootcamp project that focused on learning how to make visualizations using JavaScript's Plotly library. Looking back at it, I would much \
       rather make this type of visualization using D3 but I appreciate the simplicity Plotly provided in initially learning JavaScript visualization methods.",
-    image: "./visualizationGifs/bellyButton.gif",
+    image: "./visualizationGifs/income.gif",
     link: 'https://github.com/jacobdv/biodiversity'
   },
   {
-    title: 'Belly Button Biodiversity',
+    title: 'High Speed Internet Access',
     subtitle: 'Plotly Visualizations',
     description: "This was a bootcamp project that focused on learning how to make visualizations using JavaScript's Plotly library. Looking back at it, I would much \
       rather make this type of visualization using D3 but I appreciate the simplicity Plotly provided in initially learning JavaScript visualization methods.",
-    image: "./visualizationGifs/bellyButton.gif",
+    image: "./visualizationGifs/internetAccess.gif",
     link: 'https://github.com/jacobdv/biodiversity'
   },
   {
-    title: 'Belly Button Biodiversity',
+    title: "NCAA DI Men's Basketball",
     subtitle: 'Plotly Visualizations',
     description: "This was a bootcamp project that focused on learning how to make visualizations using JavaScript's Plotly library. Looking back at it, I would much \
       rather make this type of visualization using D3 but I appreciate the simplicity Plotly provided in initially learning JavaScript visualization methods.",
-    image: "./visualizationGifs/bellyButton.gif",
+    image: "./visualizationGifs/ncaaOriginal.gif",
     link: 'https://github.com/jacobdv/biodiversity'
   }
 ]
