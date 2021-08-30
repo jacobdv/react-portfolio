@@ -111,6 +111,21 @@ export default function Contact() {
                             className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                             /> */}
                         </div>
+                        <div className="relative mb-4">
+                            <label
+                            htmlFor="github"
+                            className="leading-9 text-sm text-white">
+                            GitHub
+                            </label>
+                            <h1 className='leading-7 text-sm text-gray-400'><a>
+                                https://github.com/jacobdv                         
+                            </a></h1>
+                            {/* <textarea
+                            id="message"
+                            name="message"
+                            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                            /> */}
+                        </div>
                         {/* <button
                             onclick='handleSubmit(e);'
                             type="submit"
