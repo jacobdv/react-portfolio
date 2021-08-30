@@ -12,7 +12,7 @@ export default function About() {
                     <p className='mb-8 leading-relaxed'>
                         I recieved my Bachelor of Science in Psychology from the University of Oregon before completing a Data Analytics and Visualization program,
                         also through U of O. I love working with data. My interest initially peaked when I was exploring college basketball data to make predictions 
-                        about March Madness. At this point, I was using Excel for all of my reformatting and analysis, which was painfully slow. Since then my repetoire 
+                        about March Madness. At that point, I was using Excel for all of my reformatting and analysis, which was painfully slow. Since then my repetoire 
                         of data analysis tools and languages has expanded tremendously, and I am now using Pandas and Python to do that same step in a fraction of the time. 
                         This has allowed me to move further into this project and begin developing a live page to display the data, my algorithms, and my predictions, which 
                         is my current project and will be added below as soon as it is live. For now, have a look at two other webpages I have designed.
